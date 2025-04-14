@@ -2,8 +2,8 @@
 
 echo "📦 Installing basic system tools..."
 
-sudo apt update
-sudo apt install -y \
+apt update
+apt install -y \
   net-tools \
   neofetch \
   btop \

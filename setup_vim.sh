@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "📦 Installing vim..."
-sudo apt update
-sudo apt install -y vim
+apt update
+apt install -y vim
 
 VIMRC_PATH="/etc/vim/vimrc"
 BACKUP_PATH="/etc/vim/vimrc.origin"
