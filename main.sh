@@ -2,7 +2,7 @@
 
 echo "🚀 Starting Linux setup..."
 
-chmod +x setup_*.sh
+chmod +x setup_file/setup_*.sh
 
 ./setup_file/setup_bash.sh
 ./setup_file/setup_vim.sh
