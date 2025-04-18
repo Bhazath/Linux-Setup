@@ -7,7 +7,7 @@ apt install -y vim
 VIMRC_PATH="/etc/vim/vimrc"
 BACKUP_PATH="/etc/vim/vimrc.origin"
 
-if [ -f ./configs/vimrc ]; then
+if [ -f ../configs/vimrc ]; then
   echo "📝 Preparing to update system vimrc..."
 
   if [ -f "$VIMRC_PATH" ] && [ ! -f "$BACKUP_PATH" ]; then
